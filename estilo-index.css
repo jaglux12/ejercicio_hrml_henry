@@ -26,11 +26,12 @@ body{
 nav{
 	position: absolute;
 	left: 0px;
+	height: 100%;
 	width: 300px;
 	background-image: linear-gradient(#343335, black);
 	padding: 10px 0px 0px 0px;
 	margin: 10px 0px 10px 0px;
-	border-radius: 0px 0px 0px 10px;
+	border-radius: 10px 10px 0px 0px;
 }
 nav #lista h3{
 	list-style: none;
@@ -39,7 +40,7 @@ nav #lista h3{
 }
 
 nav #lista {
-	list-style: none; 
+	list-style: none;
 	font-family: Arial;
 	color: gray;
 }
@@ -54,7 +55,7 @@ section{
 
 section h1 {
 	color: white;
-	font-family: sans-serif;	
+	font-family: sans-serif;
 }
 section p {
 	color: gray;
@@ -71,6 +72,6 @@ section p label {
 #perfil {
 	float: center;
 	width: 75%;
-	height: 200px;
+	height: 220px;
 	margin: 20px 0px 0px 30px;
 }
